@@ -22,13 +22,14 @@ int main() {
     system("clear");
     /* ************Main menu ***********************  */
     printf("\n\t **** Welcome to Contact Management System ****");
-    printf("\n\n\n\t\tMAIN MENU\n\t\t=========================|");
+    printf("\n\n\n\t\tMAIN MENU\n\t*===============================*");
     printf("\n\t| %30s", "[1] Add a new Contact \t|");
     printf("\n\t| %30s", "[2] List all Contacts \t|");
     printf("\n\t| %30s", "[3] Search for contact\t|");
     printf("\n\t| %30s", "[4] Edit a Contact    \t|");
     printf("\n\t| %30s", "[5] Delete a Contact  \t|");
-    printf("\n\t| [0] Exit\n\t\t=====================\n");
+    printf("\n\t| %20s","[0] Exit   \t\t|");
+    printf("\n\t*===============================*\n");
     printf("Enter the choice:");
     scanf("%d", & ch);
     switch (ch){
